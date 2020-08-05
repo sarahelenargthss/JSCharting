@@ -1,0 +1,49 @@
+nav{
+    background-image: url('img/wallpaper.png');
+    background-size: 100%;
+    /* background-image: linear-gradient(#fdbe83 1%, #ffffff 50%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    min-height: 300px;
+}
+
+nav h1 {
+    font-size: xx-large;
+    font-family: 'Montserrat Subrayada';
+    color: #813f01;
+    transition: 0.3s;
+}
+
+nav h1:hover {
+    font-size: 40px;
+}
+
+nav p {
+    width: 50%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+    color: #333333;
+}
+
+main {
+    padding: 15px;
+    min-width: 600px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 540px; 
+    height: 325px;
+    transition: 3s;
+}
